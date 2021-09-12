@@ -202,7 +202,7 @@ footer h5.copyright-info {
 
 @media only screen and (min-width: 426px) {
     html {
-        font-size: 40%;
+        font-size: 20%;
     }
     section.tea-of-the-month {
         margin-left: 30rem;
@@ -291,12 +291,12 @@ footer h5.copyright-info {
     }
 }
 
-/* @media only screen and (min-width: 1440px) { 
+@media only screen and (min-width: 1440px) { 
     html {
-        font-size: 70%;
+        font-size: 50%;
     }
     .totm-container >* {
-        flex-basis: 21%;
+        flex-basis: 30%;
         
     } 
-} */
+}
