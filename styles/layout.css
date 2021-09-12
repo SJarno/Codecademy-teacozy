@@ -1,5 +1,5 @@
 html {
-    font-size: 62.5%;
+    font-size: 40%;
     /* 10 px as base */
 }
 
@@ -202,7 +202,7 @@ footer h5.copyright-info {
 
 @media only screen and (min-width: 426px) {
     html {
-        font-size: 20%;
+        font-size: 40%;
     }
     section.tea-of-the-month {
         margin-left: 30rem;
@@ -231,6 +231,9 @@ footer h5.copyright-info {
 /* Desktop */
 
 @media only screen and (min-width: 769px) {
+    html {
+        font-size: 40%;
+    }
     .totm-container >* {
         flex-basis: 21%;
         
@@ -293,10 +296,20 @@ footer h5.copyright-info {
 
 @media only screen and (min-width: 1440px) { 
     html {
-        font-size: 50%;
+        font-size: 60%;
     }
     .totm-container >* {
-        flex-basis: 30%;
+        flex-basis: 21%;
+        
+    } 
+}
+
+@media only screen and (min-width: 1440px) { 
+    html {
+        font-size: 100%;
+    }
+    .totm-container >* {
+        flex-basis: 21%;
         
     } 
 }
