@@ -129,9 +129,7 @@ section.locations {
 }
 
 .locations-heading {
-    left: 46%;
-    top: 10%;
-    position: absolute;
+    text-align: center;
     
     
 }
